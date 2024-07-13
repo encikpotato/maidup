@@ -181,7 +181,7 @@ export default function Page() {
                   </Form>
                 </CardContent>
                 <CardFooter>
-                  <Link href="/">
+                  <Link href="/payment">
                     <Button>Confirm</Button>
                   </Link>
                 </CardFooter>
