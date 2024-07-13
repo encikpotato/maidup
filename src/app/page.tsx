@@ -9,6 +9,7 @@ import {
   MapPin,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -37,8 +38,10 @@ export default function Home() {
               Home
             </div>
             <div className="w-8 text-xs flex flex-col content-center items-center gap-2">
-              <Sofa className="h-8 w-8" />
-              Maid
+              <Link href={'./maid'}>
+                <Sofa className="h-8 w-8" />
+                Maid
+              </Link>
             </div>
             <div className="w-8 text-xs flex flex-col content-center items-center gap-2">
               <Hospital className="h-8 w-8" />
